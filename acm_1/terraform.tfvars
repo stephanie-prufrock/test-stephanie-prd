@@ -1,7 +1,9 @@
-project             = "gitops"
-stage               = "dev"
-region_code         = "kr"
-region              = "ap-northeast-2"
-domain_name         = "changeme"
-validation_method   = "DNS"
-r53_zone_id         = "changeme"
+domain_name = "changeme"
+r53_zone_id = "changeme"
+stage = "dev"
+subject_alternative_names = []
+validation_email = null
+project = "gitops"
+region = "ap-northeast-2"
+validation_method = "DNS"
+region_code = "kr"
